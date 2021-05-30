@@ -3,9 +3,14 @@
 <head>
 	<! This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp>
 	<link href="styles/style.css" rel="stylesheet" type="text/css">
+	<title>Quickstop Groceries</title>
 </head>
 
 <body>
+
+<div class="title">
+	<h1>Quickstop Groceries</h1>
+</div>
 
 <!-- Tab links, each one with an onclick event associated with it -->
 <div class="tab">
@@ -17,7 +22,7 @@
 <!-- Tab content -->
 <div id="Client" class="tabcontent">
   <h3>Client Information</h3>
-  <p>Tell us a bit about you.</p>
+  <p>Tell us a bit about yourself.</p>
 	Choose a Category:
 	<select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
 	<option value=""></option>
