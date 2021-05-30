@@ -47,8 +47,8 @@ p {
   color: #77DD77;
 }
 
-#signature {
+footer{
   text-align: right;
-  font-style: italic;
-  font-size: 75%;
+  font-size: 10px;
+  position: fixed;
 }
