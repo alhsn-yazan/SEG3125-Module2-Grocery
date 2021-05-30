@@ -48,7 +48,13 @@ p {
 }
 
 footer{
-  text-align: right;
+  text-align: left;
   font-size: 10px;
+  padding: 5px 0;
   position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #77DD77;
+  color: #FFFFFF;
 }
