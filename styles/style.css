@@ -35,3 +35,11 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.title {
+  background-color: #77DD77;
+  color: #FFFFFF;
+  margin: 20px;
+  padding: 20px;
+  width: 100%;
+}
