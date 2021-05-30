@@ -42,3 +42,13 @@
   width: 100%;
   text-align: center;
 }
+
+p {
+  color: #77DD77;
+}
+
+#signature {
+  text-align: right;
+  font-style: italic;
+  font-size: 75%;
+}
